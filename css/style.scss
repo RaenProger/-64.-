@@ -101,6 +101,17 @@ h6{
    font-family: 'SFUIDisplay-Light';
    color: rgb(75, 13, 13);
 } */
+
+.text-underline-primary:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
 .main_section {
   height: 80%;
   max-width: 99%;
@@ -570,12 +581,12 @@ header {
   .main_section .bottom_right .triangle-up {
     position: relative;
     z-index: 20;
-    margin-top: -10px;
+    margin-top: -7px;
     width: 0;
     height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-bottom: 30px solid #d74338;
+    border-left: 28px solid transparent;
+    border-right: 28px solid transparent;
+    border-bottom: 50px solid #d74338;
   }
   .section2 {
     background-color: #ea9036;
